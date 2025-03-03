@@ -1,0 +1,137 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+venv_py311/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data
+data/raw/*
+data/processed/*
+data/interim/*
+data/external/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/interim/.gitkeep
+!data/external/.gitkeep
+
+# Models
+models/trained/*
+models/exported/*
+!models/trained/.gitkeep
+!models/exported/.gitkeep
+
+# Logs
+*.log
+monitoring/logs/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+*.log
+results/
+data/raw/
+data/processed/
+.env
+config/local.yaml
+
+# Research and development
+STUDY.md
+RESEARCH_LOG.md
+MODEL_RESEARCH_DIRECTION.md
+requirements_msg.txt
+
+# Security and Secrets
+.env
+.secret
+*.pem
+*.key
+config/secrets.yaml
+config/credentials.json
+**/credentials/
+**/secrets/
+
+# Personal Information
+user_data.db
+personal_info.csv
+contact_list.xlsx
+**/personal/
+**/private/
+
+# Internal Documents
+INTERNAL_*.md
+SECURITY_*.md
+DEPLOYMENT_*.md
+**/internal/
+**/confidential/
+
+# Sensitive Test Data
+test/sensitive_data/
+mock_user_data/
+**/test_secrets/
+
+# Logs
+logs/
+*.log
+log/
+**/logs/
+debug.log
+error.log
+access.log
+
+# Database
+*.sqlite
+*.db
+**/backup/
+dump.rdb
+
+# API Keys and Tokens
+.api_keys
+.tokens
+**/tokens/
+**/api_keys/
+
+# Development
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
